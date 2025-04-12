@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HORIZONHAVEN | Teddy Trimino, 2025</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(Kauai-background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header {
+	background-color: #a9e7f9;
+}
+wrapper {
+	width: 1366px;
+	margin: 32px auto;
+	display: block;
+	background-color: #fff;
+}
+#Tabs1 ul {
+	background-color: rgba(179,239,244,0.57);
+	border: none;
+	background-image: none;
+}
+#Tabs1 {
+	border: none;
+	background-color: transparent;
+	background-image: none;
+	background-position: 0% 0%;
+}
+#Tabs1 li {
+	background-image: none;
+	background-color: rgba(255,255,255,0.25);
+	margin: 8px;
+	border: thin solid;
+	text-align: center;
+}
+#Tabs1 li:hover {
+	background-color: rgba(98,147,241,0.54);
+}
+#Tabs1 a {
+	color: #2095AC;
+	font-family: "Cormorant Garamond", serif;
+}
+input ,select{
+	margin: 8px;
+	padding: 8px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Cormorant Garamond", serif;
+	border: thin solid rgba(51,179,179,1.00);
+}
+section {
+	width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+#Submit {
+	width: 200px;
+	margin: auto;
+	background-color: #09f;
+	display: block;
+	color: #fff;
+}
+#tabs-2 input {
+	width: 100%;
+	border: thin solid rgba(51,179,179,1.00);
+}
+#tabs-2 section {
+	width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+#tabs-2 select {
+	width: 50%;
+	display: inline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+#tabs-2 input {
+}
+#Book {
+	width: 200px;
+	margin: auto;
+	display: inline-block;
+	color: #fff;
+	background-color: #09f;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#tabs-3 input {
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: thin solid rgba(51,179,179,1.00);
+	display: inline-block;
+	margin-right: -4px;
+}
+#tabs-3 section {
+	width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+#tabs-3 select {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#search {
+	width: 200px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	background-color: #09f;
+	display: inline-block;
+}
+#tabs-4 input {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#tabs-4 section {
+	width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -4px;
+}
+#tabs-4 select {
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: -4px;
+}
+#submit {
+	width: 100px;
+	color: #fff;
+	background-color: #09f;
+}
+#tabs-5 input {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#Add {
+}
+footer {
+	background-color: #465E9F;
+	color: #fff;
+	position: absolute;
+	bottom: -216px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="travela-logo.png" alt="" width="445" height="66" class="logo"></header>
+<wrapper>
+<div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="plane-icon.png" alt="" width="50" height="50"><br>
+      Flights</a></li>
+      <li><a href="#tabs-2"><img src="hotel-icon.png" alt="" width="39" height="50"><br>
+      Hotels</a></li>
+      <li><a href="#tabs-3"><img src="car-icon.png" alt="" width="65" height="50"><br>      
+      Cars</a>
+        
+      </li>
+      <li><a href="#tabs-4"><img src="cruise-icon.png" alt="" width="51" height="50"><br>
+      Cruises</a></li>
+      <li><a href="#tabs-5"><img src="activities-icon.png" alt="" width="38" height="50"><br>
+      Activities</a></li>
+</ul>
+    <div id="tabs-1"><input type="text" id="tabs-1" placeholder="Going To">
+      <section id="tabs-1"><input type="date"></section>
+      <section id="tabs-1"><input type="date"></section>
+      <select id="tabs-1">
+        <option value="0">Number of Traveler(s)</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+		<input name="Submit" type="submit" id="Submit">
+	  </div>
+    <div id="tabs-2"><input type="text" placeholder="Destination, Hotel Name">
+      <section><input type="date"></section>
+	  <section><input type="date"></section>
+	  <select>
+	    <option value="0">Number of Room(s)</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+      </select>
+	  <select name="select">
+	    <option value="0">Number of Guest(s)</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+      </select>
+		<input type="submit" id="Book">
+    </div>
+<div id="tabs-3"><input type="text" placeholder="Pick Up">
+  <input type="text" placeholder="Drop Off">
+<section><input type="date"></section>
+<section><input type="date"></section>
+<select>
+  <option value="0">Amount of Seat(s)</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select>
+	<input type="submit" id="search">
+</div>
+<div id="tabs-4"><input type="text" placeholder="Name of Cruise Ship">
+  <section><input type="date"></section>
+  <section><input type="date"></section>
+  <input type="text" placeholder="Boarding Adress">
+  <select>
+    <option value="0">Cabin(s)</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <select name="select">
+    <option value="0">Amount of Traveler(s)</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <input type="submit" id="submit">
+</div>
+<div id="tabs-5"><input type="text" placeholder="List Activities"></div>
+</div>
+	
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+<footer><p>© 2025, Teddy Trimino. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</html>
