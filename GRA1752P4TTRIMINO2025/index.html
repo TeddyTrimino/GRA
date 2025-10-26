@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SVG Animations Using CSS</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+	background-color:#CCC;
+	}
+wrapper{
+	width:100%;
+	max-width:1024px;
+	margin:0 auto;
+	display:block;
+	}
+header{
+	height:150px;
+	background-color:#A3E8D6;
+	}
+main{
+	height:768px;
+	background-color:#FFF;
+	padding:4em 0;
+	box-sizing:border-box;
+	text-align:center;
+	}
+footer{
+	height:80px;
+	background-color:#A3E8D6;
+	clear:both;
+	}
+	#screen {animation: flash infinite 2s;
+	}
+	@keyframes flash {
+  0%, 100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(2);
+  }
+}
+
+.flashing {
+  animation: flash 0.5s infinite;
+
+}
+	}
+</style>
+</head>
+
+<body>
+    <wrapper>
+        <header>
+        </header>
+                
+        <main>
+<svg id="TV" xmlns="http://www.w3.org/2000/svg" width="3.92in" height="3.12in" viewBox="0 0 282 225">
+  <rect id="rectangle" width="282" height="142"/>
+  <rect id="screen" x="14.1" y="10.31" width="253.8" height="121.39" fill="#383838"/>
+  <rect id="holder" x="99" y="142" width="82" height="50"/>
+  <rect id="base" x="39" y="192" width="205" height="33"/>
+</svg>
+        </main>
+        
+        <footer>
+			© 2025, Teddy Trimino
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
+        </footer>
+    </wrapper>
+</body>
+</html>
