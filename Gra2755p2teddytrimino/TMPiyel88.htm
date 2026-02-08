@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Havana Cuba  | Teddy T</title>
+
+    <style>
+        html, body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            height: 100vh;
+            perspective: 1px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            position: relative;
+            z-index: 10;
+        }
+
+        section {
+            height: 768px;
+            background-size: cover;
+            background-position: center;
+            transform-style: preserve-3d;
+        }
+
+        
+        .one {
+            background-image: url('images/elcapitol.png');
+            transform: translateZ(-10px) scale(11);
+            margin-top: -500px;
+        }
+
+       
+        .two {
+            background-image: url('images/oldhavana.png');
+            transform: translateZ(-5px) scale(6);
+            margin-top: 4100px;
+        }
+
+       
+        .three {
+            background-image: url('images/elmalecon.png');
+            transform: translateZ(-1px) scale(2);
+            margin-top: 600px;
+        }
+	.overlay {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.overlay h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.7);
+}
+
+.overlay p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+       }
+    </style>
+</head>
+	
+
+<body>
+    <div id="wrapper">
+
+        <header>
+            <h1>Havana, Cuba</h1>
+            <p>Patria y Vida</p>
+        </header>
+<section class="one">
+    <div class="overlay">
+        <h2>El Capitolio</h2>
+        <p>The National Capitol Building of Havana, famous for its neoclassical architecture and grand dome inspired by the U.S. Capitol.</p>
+    </div>
+</section>
+
+<section class="two">
+    <div class="overlay">
+        <h2>Old Havana</h2>
+        <p>A vibrant historic district filled with colorful buildings, cobblestone streets, and rich Cuban culture.</p>
+    </div>
+</section>
+
+<section class="three">
+    <div class="overlay">
+        <h2>El Malecón</h2>
+        <p>Havana’s iconic seaside boulevard, stretching along the coast with stunning ocean views and lively local energy.</p>
+    </div>
+</section>
+
+        <footer>
+            <p>© 2026, Your Name. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
