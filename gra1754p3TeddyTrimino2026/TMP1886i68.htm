@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Astronomy Site | Teddy Trimino, 2026</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+    background-image:url('stars-bg.jpg'); 
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    font-family:'Orbitron', Arial, sans-serif;
+    color:#fff;
+}
+
+wrapper{
+    width:100%;
+    min-width:800px;
+    max-width:1820px;
+    display:block;
+    background:rgba(0,0,0,0.6);
+    margin:0 auto;
+    padding-bottom:2em;
+    backdrop-filter:blur(4px);
+}
+
+
+
+header h1{
+    text-align:center;
+    padding:1em 0;
+    font-size:3em;
+    color:#fff;
+    letter-spacing:4px;
+    text-shadow:0 0 12px #4db8ff, 0 0 25px #4db8ff;
+}
+
+
+
+.planet-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1.5em;
+    padding:2em;
+}
+
+.planet-box{
+    border:2px solid rgba(255,255,255,0.4);
+    padding:1em;
+    text-align:center;
+    background:rgba(255,255,255,0.08);
+    border-radius:12px;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter:blur(6px);
+}
+
+.planet-box:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(255,255,255,0.7);
+}
+
+.planet-box img{
+    width:100%;
+    height:auto;
+    max-width:260px;
+    transition:filter 0.3s ease;
+}
+
+.planet-box:hover img{
+    filter:drop-shadow(0 0 12px #fff);
+}
+
+.planet-box h2{
+    margin-top:0.5em;
+    font-size:1.6em;
+    color:#aee2ff;
+    text-shadow:0 0 10px #4db8ff;
+}
+
+.planet-box p{
+    font-size:1em;
+    color:#e0e0e0;
+    margin-top:0.5em;
+}
+
+
+@media screen and (min-width:50em){
+    .planet-grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+/* Laptop — 3 columns */
+@media screen and (min-width:65em){
+    .planet-grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (min-width:80em){
+    .planet-grid{
+        grid-template-columns:repeat(4, 1fr);
+    }
+}
+
+
+
+footer{
+    padding:1.5em;
+    font-size:0.8em;
+    color:#ccc;
+    text-align:center;
+    line-height:1.4em;
+}
+
+</style>
+</head>
+
+<body>
+
+<wrapper>
+
+<header>
+    <h1>THE SOLAR SYSTEM</h1>
+</header>
+
+<main>
+
+<section class="planet-grid">
+
+   
+    <div class="planet-box">
+        <img src="planetmercury.png" alt="Mercury">
+        <h2>Mercury</h2>
+        <p>Mercury is the smallest planet and closest to the Sun, with extreme temperature swings and a cratered surface.</p>
+    </div>
+
+   
+    <div class="planet-box">
+        <img src="planetvenus.png" alt="Venus">
+        <h2>Venus</h2>
+        <p>Venus is the hottest planet due to its thick carbon dioxide atmosphere and runaway greenhouse effect.</p>
+    </div>
+
+    
+    <div class="planet-box">
+        <img src="planetearth.png" alt="Earth">
+        <h2>Earth</h2>
+        <p>Earth is the only known planet to support life, with liquid water and a protective atmosphere.</p>
+    </div>
+
+    
+    <div class="planet-box">
+        <img src="planetmars.png" alt="Mars">
+        <h2>Mars</h2>
+        <p>Mars is known as the Red Planet and features the largest volcano and canyon in the solar system.</p>
+    </div>
+
+   
+    <div class="planet-box">
+        <img src="planetjupiter.png" alt="Jupiter">
+        <h2>Jupiter</h2>
+        <p>Jupiter is the largest planet, a gas giant with a massive storm called the Great Red Spot.</p>
+    </div>
+
+  
+    <div class="planet-box">
+        <img src="planetsaturn.png" alt="Saturn">
+        <h2>Saturn</h2>
+        <p>Saturn is famous for its bright, icy rings and is the second-largest planet in the solar system.</p>
+    </div>
+
+    
+    <div class="planet-box">
+        <img src="planeturanus.png" alt="Uranus">
+        <h2>Uranus</h2>
+        <p>Uranus rotates on its side, giving it extreme seasons. It is an ice giant with a pale blue color.</p>
+    </div>
+
+    <div class="planet-box">
+        <img src="planetneptune.png" alt="Neptune">
+        <h2>Neptune</h2>
+        <p>Neptune is a deep blue ice giant with the strongest winds in the solar system.</p>
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+© 2026, Teddy.This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
+</footer>
+
+</wrapper>
+
+</body>
+</html>
